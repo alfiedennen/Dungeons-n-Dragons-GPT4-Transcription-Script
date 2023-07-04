@@ -1,0 +1,5 @@
+openai
+PyPDF2
+os
+json
+textwrap
