@@ -4,17 +4,7 @@ import textwrap
 import json
 import os
 
-openai.api_key = "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"
-
-# Player to character mapping
-char_map = {
-    "Chrys Mordin": "Illion",
-    "J.D.P.Croy": "Feng",
-    "Allix Harrison-D'Arcy": "Klagnut",
-    "Alfie Dennen": "Samgine",
-    "Charlotte": "Althea",
-    "Billy McNamee": "DM"
-}
+openai.api_key = "OPENAI_API_KEY"
 
 def read_pdf(file):
     with open(file, "rb") as filehandle:
